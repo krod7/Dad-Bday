@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Mr Kevin! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main container for the birthday card -->
+    <div class="birthday-card">
+        <!-- Birthday header with animated text -->
+        <h1 class="birthday-title">Happy Birthday Mr Kevin!<img src="confetti-animation2.gif" alt="confetti" class="confetti-gif"></h1>
+        
+        <!-- Dad's image container with interactive features -->
+        <div class="dad-image-container">
+            <img src="Mr Kevin.png" alt="dad" class="dad-image" id="dadImage">
+            <!-- Glow effect around the image -->
+            <div class="image-glow"></div>
+        </div>
+        
+        <!-- Birthday message below the image -->
+        <h3 class="birthday-message">To the best dad in the world! 🎂</h3>
+        <p class="sub-message">Thanks for being awesome and making us laugh every day!</p>
+        
+        <!-- Interactive elements -->
+        <div class="interactive-elements">
+            <button class="fun-button" id="confettiBtn">🎊 More Confetti!</button>
+        </div>
+        
+        <!-- Hidden confetti container -->
+        <div id="confettiContainer"></div>
+    </div>
+
+    <!-- JavaScript for all the interactive features -->
+    <script src="script.js"></script>
+</body>
+</html>
